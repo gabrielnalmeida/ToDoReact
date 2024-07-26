@@ -1,0 +1,22 @@
+.countDiv {
+    display: flex;
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.countDiv .createdTask {
+    color: var(--blue);
+}
+
+.countDiv .completedTask {
+    color: var(--purple)
+}
+
+.countDiv span{
+    text-align: center;
+    background: var(--gray-400);
+    border-radius: 10px;
+    width: 1.562rem;
+    height: 1.1875rem;
+    margin-left: .5rem;
+}

@@ -1,0 +1,28 @@
+.tasklist{
+    width: 47.4926875rem;
+}
+.tasklistHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    padding: 4rem 1.5rem;
+}
+
+.emptyList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--gray-300);
+}
+
+.emptyList .icon{
+    margin-bottom: 1rem;
+}
+
