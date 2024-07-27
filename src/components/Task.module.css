@@ -1,0 +1,45 @@
+.task {
+    display: flex;
+    width: 47.4926875rem;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 1.5rem;
+    align-items: start;
+}
+
+.taskNameDiv {
+    display: flex;
+    align-items: start;
+}
+
+.taskName {
+    display: block;
+    width: 41rem;
+    font-size: .875rem;
+    color: var(--gray-100);
+    margin: 0 .875rem;
+}
+
+.taskNameComplete{
+    display: block;
+    width: 41rem;
+    font-size: .875rem;
+    color: var(--gray-300);
+    margin: 0 .875rem;
+    text-decoration: line-through;
+}
+
+.deleteTask {
+    background-color: transparent;
+    border: none;
+    color: var(--gray-300);
+    cursor: pointer;
+    transition: color 0.1s;
+}
+
+.deleteTask:hover {
+    color: var(--danger);
+}
+

@@ -6,37 +6,3 @@
     position: relative;
     bottom: 1.6875rem;
 }
-
-.newTaskForm{
-    display: flex;
-    margin-bottom: 4.0625rem;
-}
-
-.newTaskName{
-    padding: 1rem 26.875rem 1rem 1rem;
-    background: var(--gray-500);
-    border: none;
-    border-radius: 8px;
-    color: var(--white);
-    margin-right: .5rem;
-}
-
-.newTaskName::placeholder{
-    color: var(--gray-300);
-}
-
-.newTaskButton{
-    display: flex;
-    align-items: center;
-    background: var(--blue-dark);
-    border: none;
-    border-radius: 8px;
-    color: var(--white);
-    padding: 1rem;
-    font-size: .875rem;
-    font-weight: 700;
-}
-
-.newTaskButton svg{
-    margin-left: .5rem;
-}
